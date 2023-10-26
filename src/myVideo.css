@@ -1,0 +1,66 @@
+
+.container{
+    width: 90%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.vidText{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vid1{
+    width: 90%;
+    height: 70%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.vid2{
+    height: 50%;
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.vid2 img{
+    width: 70%;
+    height: 70%;
+    
+}
+.text{
+    width: 60%;
+    height: 40%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    text-align: end;
+}
+.Btn{
+    width: 10%;
+    height: 90%;
+    /* background-color: bisque; */
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
